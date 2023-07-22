@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Api | Mm2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css" />
+  <meta property="og:site_name" content="Error 404">
+  <meta property="og:description" content="Ops... Parece que temos um erro 404, olhe as rotas melhor!">
+  <meta property="og:url" content="404.html">
+
+  <style>
+    :root {
+      --brazilhangout-body: 18, 18, 23;
+      --brazilhangout-general: 24, 24, 29;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+      background-color: rgb(var(--brazilhangout-body));
+    }
+
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-form {
+      max-width: 450px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: rgb(var(--brazilhangout-general));
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      color: #fff;
+    }
+
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #7e7f7e;
+    }
+
+    .login-form p {
+      color: #ffffff;
+    }
+
+    .api-container {
+      margin-top: 20px;
+      color: #ffffff;
+    }
+
+    .api-container h2 {
+      margin-top: 20px;
+      color: #7e7f7e;
+    }
+
+    .api-container ul {
+      padding-left: 20px;
+    }
+
+    .api-container a {
+      color: #bebebe;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .api-container a:hover {
+      color: #ffffff;
+    }
+    #text {
+        text-decoration: none;
+        color: #bebebe;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-form">
+      <h2>ERROR 404  😭</h2>
+      <p>
+        Retorna página principal <a id="text"href="https://brazilhangout.netlify.app/">[clique aqui]</a>
+      </p>
+      <div class="api-container">
+        <h2>Fazendo uma solicitação à API:</h2>
+        <p>Para evitar o erro 404 e fazer uma solicitação à API, você pode usar as seguintes rotas:</p>
+        <ul>
+          <li><span style="color: #16c01f;">Get (Público) [200]</span><br><a href="https://request.squareweb.app/brazilhangout/mm2">request.squareweb.app/brazilhangout/mm2</a></li>
+          <li><span style="color: #16c01f;">Get (Público) [200]</span><br><a href="https://request.squareweb.app/brazilhangout/mm2/{item}">request.squareweb.app/brazilhangout/mm2/{item}</a></li>
+          <li><span style="color: rgb(191, 165, 20);">Put</span> <span style="color: #14a31c;">(Admin) [200]</span><br><a href="https://request.squareweb.app/brazilhangout/mm2//{item}">request.squareweb.app/brazilhangout/mm2/{item}</a></li>
+          <li><span style="color: #f00;">Delete</span> <span style="color: #14a31c;">(Admin) [200]</span><br><a href="https://request.squareweb.app/brazilhangout/mm2//{item}">request.squareweb.app/brazilhangout/mm2/{item}</a></li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
