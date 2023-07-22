@@ -40,9 +40,11 @@ Mudança na documentação
 
 **Hospedagem**
 Api:
+
 [PythonAnywhere](https://www.pythonanywhere.com/) - Free
 [Hostinger](https://www.hostinger.com.br)
 Bot:
+
 [digitalocean](https://www.digitalocean.com)
 [discloudbot](https://discloudbot.com/) -- Free
 
