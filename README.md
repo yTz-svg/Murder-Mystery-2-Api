@@ -39,13 +39,16 @@ Mudança na documentação
 ![image](https://github.com/yTz-svg/Murder-Mystery-2-Api/assets/114835037/6cf384f6-a3b4-4623-bc84-5cd4b53e20f6)
 
 **Hospedagem**
+
 Api:
 
 [PythonAnywhere](https://www.pythonanywhere.com/) - Free
+
 [Hostinger](https://www.hostinger.com.br)
 Bot:
 
 [digitalocean](https://www.digitalocean.com)
+
 [discloudbot](https://discloudbot.com/) -- Free
 
 
