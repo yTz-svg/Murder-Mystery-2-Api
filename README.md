@@ -45,6 +45,7 @@ Api:
 [PythonAnywhere](https://www.pythonanywhere.com/) - Free
 
 [Hostinger](https://www.hostinger.com.br)
+
 Bot:
 
 [digitalocean](https://www.digitalocean.com)
